@@ -114,3 +114,17 @@
     flex-direction: column;
   }
 }
+
+
+
+.Connectbtn{
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: #9a6aff;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  color: azure;
+}
