@@ -25,9 +25,9 @@ const providerOptions = {
     package: WalletConnectProvider,
     options: {
       rpc: {
-        56: "https://bsc-dataseed1.binance.org",
+        97: "https://data-seed-prebsc-1-s1.binance.org:8545/",
       },
-      chainId: 56,
+      chainId: 97,
     },
   },
 };
@@ -286,7 +286,7 @@ console.log(e)
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
       
-      
+
     <Image  className='logo-dark' id="logo_header" src="/logo.png" srcSet="/logo.png" alt="nft-gaming" width="80" height="56"  /><h4>Exchange</h4>
        </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
