@@ -496,7 +496,7 @@ useEffect(()=>{
                 </div>
 
                 <div className="mt-2 mb-2">
-                  <label for="exampleInputEmail1" style={{ fontSize: "17px" }}>
+                  <label  style={{ fontSize: "17px" }}>
                     Amount
                   </label>
                   <input
@@ -509,7 +509,7 @@ useEffect(()=>{
                   />
                 </div>
                 <div className="mt-2 mb-2">
-                  <label for="exampleInputPassword1">Price</label>
+                  <label >Price</label>
                   <input
                     type="text"
                     className="form-control"
