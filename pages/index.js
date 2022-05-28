@@ -293,7 +293,7 @@ useEffect(()=>{
         style={{ height: "100%", background: "#14141f" }}
       >
         <div className="row ">
-          <div class="col-md-4 ">
+          <div className="col-md-4 ">
             <div
               className="d-flex flex-column m-4 rounded"
               style={{ background: "#343444", textAlign: "start" }}
@@ -349,7 +349,7 @@ useEffect(()=>{
             </div>
           </div>
 
-          <div class="col-md-8   ">
+          <div className="col-md-8   ">
             <div
               className="d-flex flex-column m-4 rounded"
               style={{ background: "#343444", textAlign: "start" }}
@@ -442,7 +442,7 @@ useEffect(()=>{
         </div>
 
         <div className="row mt-5">
-          <div class="col-md-4 ">
+          <div className="col-md-4 ">
             <div
               className="d-flex flex-column m-4 rounded"
               style={{ background: "#343444", textAlign: "start" }}
@@ -468,14 +468,14 @@ useEffect(()=>{
                   Create Order ({selected_currency})
                 </p>
                 <div
-                  class="btn-group "
+                  className="btn-group "
                   style={{ width: "100%" }}
                   role="group"
                   aria-label="Basic example"
                 >
                   <button
                     type="button"
-                    class="btn btn-secondary active"
+                    className="btn btn-secondary active"
                     style={{ backgroundColor: "green" }}
                     onClick={() => {
                       setorderType("buy");
@@ -485,7 +485,7 @@ useEffect(()=>{
                   </button>
                   <button
                     type="button"
-                    class="btn btn-secondary"
+                    className="btn btn-secondary"
                     style={{ backgroundColor: "red" }}
                     onClick={() => {
                       setorderType("sell");
@@ -495,24 +495,24 @@ useEffect(()=>{
                   </button>
                 </div>
 
-                <div class="mt-2 mb-2">
+                <div className="mt-2 mb-2">
                   <label for="exampleInputEmail1" style={{ fontSize: "17px" }}>
                     Amount
                   </label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter amount"
                     onChange={(e) => {
                       handelOnChange(e, "amount");
                     }}
                   />
                 </div>
-                <div class="mt-2 mb-2">
+                <div className="mt-2 mb-2">
                   <label for="exampleInputPassword1">Price</label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter Price"
                     onChange={(e) => {
                       handelOnChange(e, "price");
@@ -537,7 +537,7 @@ useEffect(()=>{
             </div>
           </div>
 
-          <div class="col-md-8   ">
+          <div className="col-md-8   ">
             <div
               className="d-flex flex-column m-4 rounded"
               style={{ background: "#343444", textAlign: "start" }}
